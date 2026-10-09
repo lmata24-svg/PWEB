@@ -1,11 +1,28 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("../fonts/Minecraft.ttf") format('truetype');
+}
+@font-face {
+    font-family: "LEMONMILK-Regular";
+    src: url("../fonts/lemon_milk/LEMONMILK-Regular.otf") format('opentype');
+}
+
+h1 {
+    font-family: "Minecraft";
+    text-shadow: 2px 2px 5px rgb(176, 41, 41);
+}
+
 #Tres{
-background-color: rgb(23, 104, 34);
+    font-family: "LEMONMILK-Regular";
+    background-color: rgb(23, 104, 34);
     color: white;
+    text-align: center;
 }
 
 #hola{
     background-color: rgb(209, 13, 13);
     color: yellow;
+    text-decoration: underline;
 }
 
 #Tres:hover{
