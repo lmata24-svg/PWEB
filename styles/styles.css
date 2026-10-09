@@ -1,0 +1,39 @@
+#Tres{
+background-color: rgb(23, 104, 34);
+    color: white;
+}
+
+#hola{
+    background-color: rgb(209, 13, 13);
+    color: yellow;
+}
+
+#Tres:hover{
+    background-color:white;
+    color: rgb(23, 104, 34);
+}
+
+#hola:hover{
+    background-color: yellow;
+    color: rgb(209, 13, 13);
+}
+
+#index a:hover{
+    background-color: bisque;
+
+}
+
+
+body#index{
+    background-color: rgb(63, 121, 121);
+}
+
+#habilidades li:first-child {
+    font-weight: bold;
+    border-top: 2px solid black;
+}
+
+#habilidades li:last-child {
+    color: red;
+    border-bottom: 2px solid black;
+}
