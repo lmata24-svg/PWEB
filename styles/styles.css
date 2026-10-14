@@ -54,3 +54,10 @@ body#index{
     color: red;
     border-bottom: 2px solid black;
 }
+
+body#index{
+    background-image: url(../Bg_Naranja.jpeg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 30%;
+}
