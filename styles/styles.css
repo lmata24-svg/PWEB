@@ -7,9 +7,11 @@
     src: url("../assets/fonts/lemon_milk/LEMONMILK-Regular.otf") format('opentype');
 }
 
-h1 {
+h1#bienvenido{
     font-family: "Minecraft";
     text-shadow: 2px 2px 5px rgb(176, 41, 41);
+    position: sticky;
+    top: 20px;
 }
 
 #Tres{
@@ -20,9 +22,12 @@ h1 {
 }
 
 #hola{
-    background-color: rgb(209, 13, 13);
-    color: yellow;
+    font-family: "Minecraft";
+    background-color: rgb(24, 24, 24);
+    color: rgb(230, 59, 128);
     text-decoration: underline;
+    position: relative;
+    top: 20px;
 }
 
 #Tres:hover{
