@@ -6,6 +6,10 @@
     font-family: "LEMONMILK-Regular";
     src: url("../assets/fonts/lemon_milk/LEMONMILK-Regular.otf") format('opentype');
 }
+font-face{
+    font-family: "Coolvetica Rg Cond";
+    src: url("../assets/fonts/CoolveticaRgCond.ttf") format('truetype');
+}
 
 h1#bienvenido{
     font-family: "Minecraft";
@@ -14,20 +18,34 @@ h1#bienvenido{
     top: 20px;
 }
 
+p#texto{
+    font-family: "Coolvetica Rg Cond";
+    text-shadow: 2px 2px 5px  rgba(11, 6, 0, 0.739);
+    color:  rgb(241, 138, 4);
+    background-color: rgb(23, 104, 34);
+    position: relative;
+    top: 30%;
+}
+
 #Tres{
     font-family: "LEMONMILK-Regular";
     background-color: rgb(23, 104, 34);
-    color: white;
+    color: rgb(241, 138, 4);
     text-align: center;
 }
 
 #hola{
     font-family: "Minecraft";
-    background-color: rgb(24, 24, 24);
-    color: rgb(230, 59, 128);
+    background-color:rgb(23, 104, 34);
+    color: rgb(241, 138, 4);
     text-decoration: underline;
     position: relative;
     top: 20px;
+}
+
+#texto:hover{
+    background-color: rgb(214, 232, 72);
+    color: rgb(19, 140, 210);
 }
 
 #Tres:hover{
@@ -36,8 +54,8 @@ h1#bienvenido{
 }
 
 #hola:hover{
-    background-color: yellow;
-    color: rgb(209, 13, 13);
+    background-color: rgb(241, 138, 4);
+    color: rgb(23, 104, 34);
 }
 
 #index a:hover{
@@ -56,7 +74,7 @@ body#index{
 }
 
 #habilidades li:last-child {
-    color: red;
+    color: rgb(7, 145, 87);
     border-bottom: 2px solid black;
 }
 
